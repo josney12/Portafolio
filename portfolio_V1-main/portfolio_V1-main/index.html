@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>&#x1F4BB; Portfolio Josney &#x2699;</title>
+    <link rel="stylesheet" href="./estilo.css">
+    <link rel="stylesheet" href="./light-mode.css">
+</head>
+
+<body class="light-mode">
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+
+                <a href="#"><img src="./img/Captura de pantalla 2024-11-27 155442.png" width="140px" alt="error de conexion"></a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">HOME</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">ABOUT MY</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#aling-content-center" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACT</a></li>
+                    <li><!-- Botón para cambiar de modo -->
+                        <div class="theme-toggle">
+                            <button id="themeButton" onclick="toggleTheme()">
+                                <i id="themeIcon" class="fa-solid fa-sun"></i>
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio" style="display: flex;justify-content: center;height: auto;">
+        <br>
+        <div class="card" style="border-radius: 10%;background-color: black;margin-top: 17rem;">
+
+            <div class="contenido-banner">
+                <div class="contenedor-img">
+                    <a target="_blank" href="#"><img
+                            src="./img/1720555491069 (1).jpg" class="img_Card"
+                            alt="datos o internet muy lentos "></a>
+                </div>
+                <h1 style="color: rgb(161, 43, 193);">Josney</h1>
+                <h2 style="color: blueviolet;">Software developer - Expert UI/UX</h2>
+                <div class="redes">
+                    <a target="_blank" href="https://www.facebook.com/josney.castilohernandez.9/"><i
+                            class="fa-brands fa-facebook-f"></i></a>
+                    <!-- <a target="_blank" href="><i
+                            class="fa-brands fa-twitter"></i></a> -->
+                    <a target="_blank" href="https://www.linkedin.com/in/josney-castillo-hernandes-575ab9216/"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a target="_blank" href="https://wa.me/3146791362"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/josney_hernandez/"><i
+                            class="fa-brands fa-instagram"></i></a>
+
+
+
+                </div>
+            </div>
+        </div>
+        <br>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2> About Me</h2>
+            <p>
+                <c>Hello, I'm Josney .</c> a passionate software developer with a love for problem solving and
+                creating innovative solutions. My journey in the world of technology started from a young age and since
+                then, I have acquired skills in a variety of programming languages and technologies.
+            </p>
+            <p>I strongly believe in continuous learning and adaptability in this constantly evolving field. My goal is
+                to use my technical and creative skills to develop software that makes a meaningful impact and improves
+                people's lives.
+
+                I'm always looking for new opportunities to grow and challenges to overcome. I hope to have the
+                opportunity to work with you and create something amazing together!</p>
+            <p>I'm looking forward to working with you!</p>
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Personal Data</h3>
+                    <ul>
+                        <li>
+                            <strong>Birthday</strong>
+                            29-11-2005
+                        </li>
+                        <li>
+                            <strong>Phone</strong>
+                            3146791362
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            josneycastillo2011@gmail.com.com
+                        </li>
+                        <!-- <li>
+                            <strong>Website</strong>
+                            https://cristdev.vercel.app/
+                        </li    > -->
+                        <li>    
+                                <strong>Address</strong>
+                                CR 65 San Antonio prado, Medellin
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <c>FREELANCE AND STUDY</c>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>GAMES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>TRAVEL</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fas fa-code"></i>
+                            <span>develoment</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>SPORTS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>BOOKS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fas fa-film"></i>
+                            <span>MOVIES</span>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <a target="_blank" href="./img/hoja de vida.docx" download style="text-decoration: none;">
+                <button style="color: rgb(64, 122, 87);">
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+            </a>
+
+
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript & Typescript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Nestjs</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>JAVA</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MYSQL & POSTGRESQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PYTHON</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>71%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C# .NET</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Communication</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Teamwork</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creativity</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedication</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>96%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Responsibility</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Time management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Adaptation to change</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Education</h3>
+                    <div class="item izq">
+                        <h4>Software Development</h4>
+                        <span class="casa">I.U DIGITAL DE ANTIOQUIA</span>
+                        <span class="fecha">2023 - 2025</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora
+                            recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta
+                            aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Software Development</h4>
+                        <span class="casa">Censa</span>
+                        <span class="fecha">2023 - 2025</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora
+                            recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta
+                            aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Software Development</h4>
+                        <span class="casa">UDEMY</span>
+                        <span class="fecha">2023 - 2025</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora
+                            recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta
+                            aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Work experience</h3>
+                    <div class="item der">
+                        <h4>Front-end Developer</h4>
+                        <span class="casa">Company Name</span>
+                        <span class="fecha">2024 - ...</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora
+                            recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta
+                            aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Back-end Developer</h4>
+                        <span class="casa">Company Name</span>
+                        <span class="fecha">2024 - ...</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora
+                            recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta
+                            aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>fullstack Developer</h4>
+                        <span class="casa">Company Name</span>
+                        <span class="fecha">2024 - ...</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora
+                            recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta
+                            aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="aling-content-center" class="portfolio">
+        <h2>PORTFOLIO</h2>
+        <div class="row">
+            <!-- <div class="galeria">
+               
+            </div> -->
+            <div class="proyecto" id="proyect">
+                <img src="./img/Captura de pantalla 2024-11-22 134633.png" alt="">
+                <div class="overlay">
+                    <h3>NOMINA DE PAGOS</h3>
+                    <p>
+                        proyecto realizado con😢
+                    </p>
+                    <ol>
+                        <li>C#</li>
+                        <li>.NET</li>
+                        <li>MySQL</li>
+                    </ol>
+                    <br>
+                    <a target="_blank" href="https://github.com/josney12?tab=repositories"
+                        class="link-info">Website <i class="fas fa-external-link-alt"></i></a>
+                </div>  
+            </div>
+            <div class="proyecto" id="proyect">
+                <img src="./img/cursos.jpg" alt="">
+                <div class="overlay">
+                    <h3>CUROS DE PROGRAMAMCION</h3>
+                    <p>
+                        proyecto realizado con😢
+                    </p>
+                    <ol>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JAVASCRIPT</li>
+                    </ol>
+                    <br>
+                    <a target="_blank" href="https://github.com/josney12/sitio-web-cursos-de-programacion"
+                        class="link-info">Website <i class="fas fa-external-link-alt"></i></a>
+                </div>
+
+            </div>
+
+
+            <div class="proyecto" id="proyect">
+                <img src="./img/mi IA.avif" alt="">
+                <div class="overlay">
+                    <h3>Mi Inteligencia Artificial</h3>
+                    <p>
+                        proyecto realizado con😢
+                    </p>
+                    <ol>
+                        <li>java</li>
+                        <!-- <li>CSS</li>
+                        <li>JAVASCRIPT</li> -->
+                    </ol>
+                    <br>
+                    <a target="_blank" href="https://github.com/josney12/MI-IA"
+                        class="link-info">Website <i class="fas fa-external-link-alt"></i></a>
+                </div>
+
+            </div>
+        </div>   
+
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACT</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col" id="formulario">
+
+                    <form action="https://formspree.io/f/mvoeqlkn" method="POST" style="color: rgb(217, 223, 223);">
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" style="color: rgb(101, 217, 217);" name="_replyto" required>
+                        <label for="asunto">Subject:</label>
+                        <input type="text" id="asunto" style="color: rgb(101, 217, 217);" name="asunto" required>
+                        <label for="mensaje">Message:</label>
+                        <textarea id="mensaje" style="color: rgb(101, 217, 217);" name="mensaje" required></textarea>
+                        <button type="submit">
+                            Send Message<i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </form>
+
+                </div>
+                <!-- Mapa -->
+                <div class="col" id="location">
+                    <img src="./img/location.png" height="550rem" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Cl. 16 #55-129, Guayabal, Medellín, Antioquia
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 314 - 679 - 13 - 62
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: josneycastillo2011@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <i style="text-justify: 4px">All rights reserveds: JOSNEY CASTILLO --- 2024 &copy;</i>
+        <div class="redes">
+            <a target="_blank" href="https://www.facebook.com/josney.castilohernandez.9/"><i class="fa-brands fa-facebook-f"></i></a>
+            <!-- <a target="_blank" href=""><i class="fa-brands fa-twitter"></i></a> -->
+            <a target="_blank" href="https://secure.skype.com/"><i class="fa-brands fa-skype"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/josney-castillo-hernandes-575ab9216/"><i
+                    class="fa-brands fa-linkedin-in"></i></a>
+            <a target="_blank" href="https://mail.google.com/mail/u/1/#inbox"><i class="fa-solid fa-envelope"
+                    aria-hidden="true"></i></a>
+            <a target="_blank" href="https://wa.me/3146791362"><i class="fa-brands fa-whatsapp"></i></a>
+
+
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
